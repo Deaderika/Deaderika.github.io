@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/stylecontact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/cssbutton.css"> -->
+    <link rel="stylesheet" href="css\swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">      
+     <!-- boxicon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+    <main>
+        <div class="big-wrapper light">
+          <header>
+            <nav class="navbar ">
+              <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                <i class="bx bx-menu"></i>
+              </label>
+              <label class="logo" style="margin-bottom: 40vh;">
+                  <img src="AssetsWebDesign_Techomfest/Logo2.png" alt="">
+              </label>
+              <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="blog.html" >Blog</a></li>
+                <li><a href="contact2.html" class="active">Contact</a></li>
+                <li>
+                  <div class="select-menu">
+                    <div class="select-btn">
+                        <span class="sBtn-text">Explore</span>
+                        <i class="bx bx-chevron-down"></i>
+                    </div>
+            
+                    <ul class="options" style="float: left;">
+                        <li class="option">
+                            <span class="option-text">Seni</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">Musik</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">Kuliner</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">Pariwisata</span>
+                        </li>
+                    </ul>
+                </div>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+        <section class="contact">
+            <div class="container row" style="display: flex;">
+                <div class="container col-6">
+                    <div class="form-wrapper">
+                        <div class="contact-heading" style="margin-top: 90px;">
+                           <h1>Let's contact we<span>.</span></h1> 
+                        </div>
+
+                        <form action="contact us.html" method="post" class="contact-form">
+                            <div class="input-wrap">
+                                <input class="contact-input" autocomplete="off" name="First Name" type="text" required>
+                                <label>First name</label>
+                                <i class="icon fa-solid fa-address-card"></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input class="contact-input" autocomplete="off" name="Last Name" type="text" required>
+                                <label>Last name</label>
+                                <i class="icon fa-solid fa-address-card"></i>
+                            </div>
+
+                            <div class="input-wrap w-100">
+                                <input class="contact-input" autocomplete="off" name="Email" type="email" required>
+                                <label>Email</label>
+                                <i class="icon fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div class="input-wrap textarea w-100">
+                                <textarea name="Message" autocomplete="off" class="contact-input" required></textarea>
+                                <label>Massage</label>
+                                <i class="icon fa-solid fa-inbox"></i>
+                            </div>
+
+                            <div class="contact-buttons w-100">
+                                <button class="btn upload">     
+                                    <input type="submit" value="Send message" class="btn">
+                                    <label for="">Send message</label>
+                                </button>
+                            </div>
+                            
+                           
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="image-wrapper">
+                        <img src="AssetsWebDesign_Techomfest/batik.png" class="img">
+                        <img src="AssetsWebDesign_Techomfest/garis.png" class="img">
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer"> 
+      <div class="container">
+        <div class="row" style="display: flex; margin-left: 30vh;">
+          <div class="sosmed">
+            <div class="logo-footer">
+              <img src="AssetsWebDesign_Techomfest/Logo.png" alt="">
+            </div>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          <div class="footer-col">
+            <h4>EXPLORE</h4>
+            <ul>
+              <li><a href="Rumah_Adat.html">Seni dan Kebudayaan</a></li>
+              <li><a href="MusikTari.html">Musik dan Tarian</a></li>
+              <li><a href="kuliner.html">Kuliner</a></li>
+              <li><a href="Pariwisata.html">Pariwista</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>MENU</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Exprole</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+        
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
